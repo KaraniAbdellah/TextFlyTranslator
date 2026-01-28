@@ -1,0 +1,13 @@
+--- FIRST PART:
+// Implement the REST web service class using JAX-RS API.
+// Test your implementation using Postman, SoapUI, and cURL.
+// Implement a PHP client app. [Send Request to REST API that Built with JAX-RS API]
+
+
+--- SECOND PART:
+// Build a Chrome extension using Manifest V3.
+// --> [voice-to-voice translation]
+// Secure RESTFull
+
+
+// website: https://selectext.app/
