@@ -28,7 +28,7 @@ public class TranslatorOperations {
 }
 
 // NOTE: each time you must open wildFly server --> /bin/standlone.sh --> and before i need to setUp api key
-// export GOOGLE_API_KEY=AIzaSyBsGAcoTjfJ_K9WZShdvmWWnVKuN6GoSR8
+// export GOOGLE_API_KEY=API_KEY
 // /home/abdellah/wildfly-39.0.0.Beta1/bin/standalone.sh
 
 
