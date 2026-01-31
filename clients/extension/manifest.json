@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Text Selector",
+  "name": "Text Fly Translator",
   "version": "1.0.0",
-  "description": "Select text and view in side panel",
+  "description": "Translate Text From Any Language to Any Language With SidePanel Feature",
 
   "permissions": ["sidePanel", "activeTab"],
 

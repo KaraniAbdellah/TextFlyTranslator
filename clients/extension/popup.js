@@ -1,24 +1,48 @@
-// Get All Inputs
 const from_langauge = document.querySelector(".from-langauge");
 const to_language = document.querySelector(".to-language");
+
+// Button Translation
 const translate_btn_to_any_language = document.querySelector(
   ".translate-btn-to-any-language"
 );
+
+// User Write Text in This Input
 const text_input_from_language = document.querySelector(
   ".text-input-from-language"
 );
+
+// User See Result Translation Here
 const translation_output = document.querySelector(".translation-output");
 
-document.addEventListener("click", (event) => {
+// Speak Button (speaker-btn) && Listen Button (mic-phone)
+const speaker_btn = document.querySelector(".speaker-btn");
+const listen_button = document.querySelector(".mic-btn");
+
+// If User Click to Speak Button
+speaker_btn.addEventListener("click", (event) => {
+  event.preventDefault();
+  console.log("Speaking ...");
+});
+
+// If User CLick to Listen
+listen_button.addEventListener("click", (event) => {
+  event.preventDefault();
+  console.log("Listening ...");
+});
+
+translate_btn_to_any_language.addEventListener("click", async (event) => {
   event.preventDefault();
   console.log(from_langauge.value, to_language.value);
-  console.log(`We Want to Translate [${from_langauge.value}] tp [${to_language.value}]`);
+  console.log(
+    `We Want to Translate [${from_langauge.value}] to [${to_language.value}] This Text=[${text_input_from_language.value}]`
+  );
+
   if (text_input_from_language.value) {
-    const res = generateContent(
+    const res = await generateContent(
       to_language.value,
       text_input_from_language.value
     );
-    translate_btn_to_any_language.value = res;
+    translation_output.value = res;
   }
 });
 
