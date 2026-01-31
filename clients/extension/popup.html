@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <div class="header">
+        <div class="logo">
+          <i class="fas fa-language"></i>
+          <h1>QuickTranslate</h1>
+        </div>
+      </div>
+
+      <!-- Translation Card -->
+      <div class="translation-card">
+        <!-- Source Section -->
+        <div class="input-section">
+          <div class="section-header">
+            <select class="language-select from-langauge" id="source-lang">
+              <option value="auto">Detect Language</option>
+              <option value="en">English</option>
+              <option value="es">Spanish</option>
+              <option value="fr">French</option>
+              <option value="de">German</option>
+              <option value="it">Italian</option>
+              <option value="pt">Portuguese</option>
+              <option value="ru">Russian</option>
+              <option value="ja">Japanese</option>
+              <option value="ko">Korean</option>
+              <option value="zh">Chinese</option>
+              <option value="ar">Arabic</option>
+              <option value="hi">Hindi</option>
+            </select>
+            <button
+              class="icon-btn mic-btn"
+              id="source-mic"
+              title="Voice Input"
+            >
+              <i class="fas fa-microphone"></i>
+            </button>
+          </div>
+
+          <div class="text-input-wrapper">
+            <textarea
+              class="text-input text-input-from-language"
+              id="source-text"
+              placeholder="Enter text or select text on page..."
+              rows="5"
+            ></textarea>
+            <button class="clear-btn" id="clear-source" title="Clear">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+
+          <div class="char-count" id="source-count">0 / 5000</div>
+        </div>
+
+        <!-- Swap Button -->
+        <div class="swap-container">
+          <button class="swap-btn" id="swap-langs" title="Swap Languages">
+            <i class="fas fa-exchange-alt"></i>
+          </button>
+        </div>
+
+        <!-- Target Section -->
+        <div class="input-section">
+          <div class="section-header">
+            <select class="language-select to-language" id="target-lang">
+              <option value="en">English</option>
+              <option value="es">Spanish</option>
+              <option value="fr" selected>French</option>
+              <option value="de">German</option>
+              <option value="it">Italian</option>
+              <option value="pt">Portuguese</option>
+              <option value="ru">Russian</option>
+              <option value="ja">Japanese</option>
+              <option value="ko">Korean</option>
+              <option value="zh">Chinese</option>
+              <option value="ar">Arabic</option>
+              <option value="hi">Hindi</option>
+            </select>
+            <button
+              class="icon-btn speaker-btn"
+              id="target-speaker"
+              title="Listen"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+          </div>
+
+          <div class="text-input-wrapper">
+            <textarea
+              class="text-input translation-output"
+              id="target-text"
+              placeholder="Translation will appear here..."
+              rows="5"
+              readonly
+            ></textarea>
+            <button class="copy-btn" id="copy-target" title="Copy Translation">
+              <i class="fas fa-copy"></i>
+            </button>
+          </div>
+
+          <div class="char-count" id="target-count">0 characters</div>
+        </div>
+      </div>
+
+      <!-- Action Button -->
+      <button
+        class="translate-btn translate-btn-to-any-language"
+        id="translate-btn"
+      >
+        <i class="fas fa-language"></i>
+        <span>Translate</span>
+      </button>
+
+      <!-- Status Indicator -->
+      <div class="status-bar" id="status-bar">
+        <i class="fas fa-check-circle"></i>
+        <span>Ready to translate</span>
+      </div>
+    </div>
+
+    <!-- <script type="module" src="./popup.js"></script> -->
+    <script src="popup.js"></script>
+  </body>
+</html>

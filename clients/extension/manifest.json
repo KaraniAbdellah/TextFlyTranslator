@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Text Selector",
+  "version": "1.0.0",
+  "description": "Select text and view in side panel",
+
+  "permissions": ["sidePanel", "activeTab"],
+
+  "side_panel": {
+    "default_path": "popup.html"
+  },
+
+  "action": {
+    "default_title": "Open Text Selector"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
