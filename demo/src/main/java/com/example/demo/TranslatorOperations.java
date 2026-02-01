@@ -24,11 +24,10 @@ public class TranslatorOperations {
                         req.prompt,
                         null
                 );
-
         return response.text();
     }
 
-    public class PromptRequest {
+    static public class PromptRequest {
         public String prompt;
     }
 }

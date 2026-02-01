@@ -50,7 +50,7 @@ async function generateContent(to_language, text) {
   console.log(
     `Translate This text=${text} to ${to_language} with no extra description`
   );
-  const GEMINI_API_KEY = "AIzaSyBO_K4w8wf2QvlhPqN_n_QoCcIzCF6i9VM"; // replace with your key
+  const GEMINI_API_KEY = "AIzaSyC2PbA6EBiXa-CHSzVQ44Qlzc9JpqoLTuk"; // replace with your key
   const response = await fetch(
     "https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent",
     {

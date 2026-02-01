@@ -1,3 +1,3 @@
 .env
-clients/extension/.env
-/clients/extension/.env
+clients/**/.env
+/clients/**/config.js

@@ -21,3 +21,27 @@ is performed by an LLM (Large Language Model) in my case I using ****
     server: for rest api
 
 
+# How to Run it:
+first fork the project and download wildfly in your computer.
+
+``` bash
+
+For The First part:
+if you are in linux execute the project: by this commands:
+/yourPathToWildFly/wildfly-39.0.0.Beta1/bin/standalone.sh
+but after that export export GOOGLE_API_KEY=AIzaSyBsGAcoTjfJ_K9WZShdvmWWnVKuN6GoSR8 FROm: https://aistudio.google.com/api-keys
+
+
+cd clients/phpClient 
+php client.php # you shoudl the reposne
+
+
+For The Second part:
+upload folder of clients/extention to goodle chomr extention or any borwser from here:
+brave://extensions/
+
+and you get the result: of extention.
+
+
+```
+

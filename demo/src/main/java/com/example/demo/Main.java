@@ -6,6 +6,7 @@ import com.google.genai.types.GenerateContentResponse;
 public class Main {
     public static void main(String args[]) {
         Client client = new Client();
+        System.out.println("Hello From Main");
         GenerateContentResponse response =
                 client.models.generateContent(
                         "gemini-3-flash-preview",
