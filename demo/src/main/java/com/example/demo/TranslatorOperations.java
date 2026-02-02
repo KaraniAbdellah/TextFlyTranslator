@@ -18,12 +18,10 @@ public class TranslatorOperations {
     public String getTranslation(PromptRequest req) {
         System.out.println("Hello from Get Translation");
         Client client = new Client();
-        GenerateContentResponse response =
-                client.models.generateContent(
-                        "gemini-3-flash-preview",
-                        req.prompt,
-                        null
-                );
+        GenerateContentResponse response = client.models.generateContent(
+                "gemini-3-flash-preview",
+                req.prompt,
+                null);
         return response.text();
     }
 

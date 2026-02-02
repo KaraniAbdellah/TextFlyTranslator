@@ -42,6 +42,9 @@ brave://extensions/
 
 and you get the result: of extention.
 
+TEST: curl -X POST "http://localhost:8080/demo-1.0-SNAPSHOT/translator/getTranslation" \
+     -H "Content-Type: application/json" \
+     -d '{"prompt": "Translate this <Hello World> to this language <Arabic>"}'
 
 ```
 

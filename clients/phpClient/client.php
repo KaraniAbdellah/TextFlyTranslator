@@ -3,7 +3,7 @@
 $url = "http://localhost:8080/demo-1.0-SNAPSHOT/translator/getTranslation";
 
 $data = [
-    "prompt" => "Translate this <Hello World> to this language <Arabic>"
+    "prompt" => "Translate this <Hello World> to this language <Frensh>"
 ];
 
 $options = [
