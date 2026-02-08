@@ -3,10 +3,13 @@
 <div align="center">
     <img src="./imgs/onTheFlyLogo.png" width="150">
     <h2>OnTheFly Extension</h2>
+    <a href="https://www.linkedin.com/in/abdellah-karani-965928294/" target="_blank">
+        <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
+    </a>
+    <a href="https://x.com/karani66745" target="_blank">
+        <img src="https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white">
+    </a>
 </div>
-
-
-<img src="./imgs/slide1.png">
 
 
 <img src="./imgs/slide2.png">
