@@ -3,11 +3,9 @@
 <div align="center">
     <img src="./imgs/onTheFlyLogo.png" width="150">
     <h2>OnTheFly Extension</h2>
-
     <a href="https://www.linkedin.com/in/your-profile" target="_blank">
         <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
     </a>
-
     <a href="https://twitter.com/your-profile" target="_blank">
         <img src="https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white">
     </a>
