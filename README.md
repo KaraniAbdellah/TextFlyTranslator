@@ -1,4 +1,4 @@
-### Video Link: https://youtu.be/HXlM3S8YNUk
+## Video Link: https://youtu.be/HXlM3S8YNUk
 
 <div align="center">
     <img src="./imgs/onTheFlyLogo.png" width="200">
@@ -12,6 +12,13 @@
 <img src="./imgs/slide2.png">
 
 ### Introduction
+This project aims to implement an LLM-powered RESTful web service for
+translating from English to Moroccan Arabic Dialect (Darija) or Any Other Language.
+The translation task is performed by an LLM (Large Language Model) in my case I using ****
+
+in Slide1 you see that we translate from Frensh to Englich,
+I am make the project general means we can use it to translate from any to any language.
+
 
 <img src="./imgs/slide3.png">
 
