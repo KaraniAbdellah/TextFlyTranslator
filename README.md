@@ -1,5 +1,8 @@
 Video Link: https://youtu.be/HXlM3S8YNUk
 
+<img src="./imgs/onTheFly.png">
+
+
 # Extension_Translator
 This project aims to implement an LLM-powered RESTful web service for
 translating from English to Moroccan Arabic Dialect (Darija) or Any Other Language. The web service is

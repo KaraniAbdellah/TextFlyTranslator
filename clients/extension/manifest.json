@@ -5,7 +5,9 @@
   "description": "Translate Text From Any Language to Any Language With SidePanel Feature",
 
   "permissions": ["sidePanel", "activeTab"],
-
+  "icons": {
+    "16": "./imgs/onTheFly.png"
+  },
   "side_panel": {
     "default_path": "popup.html"
   },

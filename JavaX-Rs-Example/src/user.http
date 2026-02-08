@@ -1,0 +1,20 @@
+### Post User With Body Data
+POST http://localhost:8080/JavaX-Rs-Example-1.0-SNAPSHOT/api/hello-world
+Content-Type: application/json
+
+{
+    "name": "ahmed",
+    "email": "ahmed@gmail.com"
+}
+
+### Post User With Param Data in URI
+
+POST http://localhost:8080/JavaX-Rs-Example-1.0-SNAPSHOT/api/hello-world/ahmed/ahmed@gmail.com
+
+
+### Post User With Query Param
+POST http://localhost:8080/JavaX-Rs-Example-1.0-SNAPSHOT/api/hello-world?name=ahmed&email=ahmed@gmail.com
+
+
+
+
