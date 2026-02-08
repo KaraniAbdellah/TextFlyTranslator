@@ -1,14 +1,21 @@
-Video Link: https://youtu.be/HXlM3S8YNUk
+### Video Link: https://youtu.be/HXlM3S8YNUk
 
-<img src="./imgs/onTheFly.png">
+<img src="./imgs/onTheFlyLogo.png">
+<div align="center">
+  <img src="onTheFlyLogo.png" alt="On The Fly Logo" width="200"/>
+  
+  <p align="center">
+    <strong>OnTheFly Extention</strong>
+  </p>
+
+  <p align="center">
+    <img src="https://img.shields.io/badge/downloads-598k%2Fmonth-brightgreen" alt="Downloads"/>
+    <img src="https://img.shields.io/badge/users-2k%20online-blue" alt="Online Users"/>
+    <img src="https://img.shields.io/badge/twitter-%40clerkdev-1DA1F2?logo=twitter" alt="Twitter"/>
+  </p>
+</div>
 
 
-# Extension_Translator
-This project aims to implement an LLM-powered RESTful web service for
-translating from English to Moroccan Arabic Dialect (Darija) or Any Other Language. The web service is
-called TranslatorResource, and it has a business method called translate(), which
-takes an English text as an argument and returns its translation. The translation task
-is performed by an LLM (Large Language Model) in my case I using ****
 
 
 
