@@ -1,7 +1,7 @@
 ### Video Link: https://youtu.be/HXlM3S8YNUk
 
 <div align="center">
-    <img src="./imgs/onTheFlyLogo.png" width="50%">
+    <img src="./imgs/onTheFlyLogo.png" width="200">
     <h2>OnTheFly Extension</h2>
 </div>
 
