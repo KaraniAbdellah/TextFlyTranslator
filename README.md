@@ -27,11 +27,11 @@
 
 ### ✨ Key Features
 
-- 🌍 **Universal Translation**: Translate from any language to any language
-- 🤖 **AI-Powered**: Built on Google's Gemini LLM for accurate translations
-- 🔄 **Dual Architecture**: RESTful API + Chrome Extension
-- ⚡ **Real-time**: Instant translation responses
-- 🎨 **Modern UI**: Clean, intuitive interface
+- **Universal Translation**: Translate from any language to any language
+- **AI-Powered**: Built on Google's Gemini LLM for accurate translations
+- **Dual Architecture**: RESTful API + Chrome Extension
+- **Real-time**: Instant translation responses
+- **Modern UI**: Clean, intuitive interface
 
 <img src="./imgs/slide3.png" alt="Architecture Diagram" style="border-radius: 10px; margin: 20px 0;">
 
@@ -59,27 +59,27 @@ Extension UI → Direct API Call → Gemini API → Display Result
 
 ---
 
-## 🚀 Getting Started
+## 📋 Getting Started
 
-### 📋 Prerequisites
+### Prerequisites
 
 <table>
 <tr>
 <td width="50%">
 
 #### For Client/Server App:
-- ☕ **Java JDK** (11 or higher)
-- 🐛 **WildFly Server** (v27 recommended)
-- 🐘 **PHP** (7.4+)
-- 🔑 **Gemini API Key**
+- **Java JDK** (11 or higher)
+- **WildFly Server** (v27 recommended)
+- **PHP** (7.4+)
+- **Gemini API Key**
 
 </td>
 <td width="50%">
 
 #### For Browser Extension:
-- 🌐 **Google Chrome** (or any Chromium browser)
-- 🔧 **Developer Mode** enabled
-- 🔑 **Gemini API Key**
+- **Google Chrome** (or any Chromium browser)
+- **Developer Mode** enabled
+- **Gemini API Key**
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ cd TextFlyTranslator
 
 ### Step 2: Get Your API Key
 
-> 🔑 Obtain your free Gemini API key from:  
+> Obtain your free Gemini API key from:  
 > **https://aistudio.google.com/api-keys**
 
 ⚠️ **Note**: The free API has rate limits. Get your own key for uninterrupted service.
@@ -218,7 +218,7 @@ This project is open source and available for anyone to use and improve.
 
 <div align="center">
 
-### ⭐ If you find this project helpful, please give it a star!
+### If you find this project helpful, please give it a star!
 
 **Made with ❤️ by [Abdellah Karani](https://www.linkedin.com/in/abdellah-karani-965928294/)**
 
