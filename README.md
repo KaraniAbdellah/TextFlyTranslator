@@ -3,7 +3,7 @@
 <!-- Logo and Title -->
 <img src="./imgs/onTheFlyLogo.png" width="180" alt="OnTheFly Logo">
 
-# 🚀 OnTheFly Extension
+# OnTheFly Extension
 
 ### *Real-time Language Translation Powered by AI*
 
