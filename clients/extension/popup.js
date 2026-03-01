@@ -1,3 +1,4 @@
+import GEMINI_API_KEY from "./config.js"
 // DOM Elements
 const from_langauge = document.querySelector(".from-langauge");
 const to_language = document.querySelector(".to-language");
@@ -272,8 +273,6 @@ translate_btn_to_any_language.addEventListener("click", async (event) => {
 
 // API Translation Function
 async function generateContent(to_language_code, text) {
-  const GEMINI_API_KEY_IMPORT = "AIzaSyDEZmUVTA6J3GaScbD5GFbxd-c8jmwRGps"; // Replace with your key
-
   // Map language codes to full language names
   const languageNames = {
     en: "English",
@@ -297,7 +296,7 @@ async function generateContent(to_language_code, text) {
     {
       method: "POST",
       headers: {
-        "x-goog-api-key": GEMINI_API_KEY_IMPORT,
+        "x-goog-api-key": GEMINI_API_KEY,
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
