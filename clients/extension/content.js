@@ -1,4 +1,3 @@
-// get First Input && Second Input
-
+// Content.js
 
 

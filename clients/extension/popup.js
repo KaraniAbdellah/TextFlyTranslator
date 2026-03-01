@@ -272,7 +272,7 @@ translate_btn_to_any_language.addEventListener("click", async (event) => {
 
 // API Translation Function
 async function generateContent(to_language_code, text) {
-  const GEMINI_API_KEY_IMPORT = "AIzaSyC2PbA6EBiXa-CHSzVQ44Qlzc9JpqoLTuk"; // Replace with your key
+  const GEMINI_API_KEY_IMPORT = "AIzaSyDEZmUVTA6J3GaScbD5GFbxd-c8jmwRGps"; // Replace with your key
 
   // Map language codes to full language names
   const languageNames = {
